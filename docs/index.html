@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOC Setlist - March 3, 2026</title>
+    <style>
+        :root {
+            --bg: #1a1a2e;
+            --card-bg: #16213e;
+            --accent: #e94560;
+            --text: #eaeaea;
+            --text-muted: #a0a0a0;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            margin-bottom: 30px;
+        }
+        
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+        
+        header .date {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+        
+        .songs {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .song {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .song-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .song-number {
+            background: var(--accent);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+        
+        .song-header h2 {
+            font-size: 1.3rem;
+            flex-grow: 1;
+        }
+        
+        .artist {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .no-video {
+            background: #0f0f1a;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: var(--text-muted);
+        }
+        
+        .yt-link {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-top: 8px;
+        }
+        
+        .yt-link:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        
+        footer a {
+            color: var(--accent);
+        }
+        
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .song-header h2 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🦪 Fried Oyster Cult</h1>
+        <div class="date">Setlist • March 3, 2026</div>
+    </header>
+    
+    <main class="songs">
+        
+        <div class="song" id="song-1">
+            <div class="song-header">
+                <span class="song-number">1</span>
+                <h2>Let the Tape Roll</h2>
+                
+            </div>
+            <div class="no-video">No video available</div>
+            
+        </div>
+
+        <div class="song" id="song-2">
+            <div class="song-header">
+                <span class="song-number">2</span>
+                <h2>it keeps you running</h2>
+                <span class="artist">doobie brothers</span>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/MvXfzewXzVI" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=MvXfzewXzVI" target="_blank" class="yt-link">Open in YouTube ↗</a>
+        </div>
+
+        <div class="song" id="song-3">
+            <div class="song-header">
+                <span class="song-number">3</span>
+                <h2>Sledgehammer</h2>
+                <span class="artist">peter gabriel</span>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/OJWJE0x7T4Q" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=OJWJE0x7T4Q" target="_blank" class="yt-link">Open in YouTube ↗</a>
+        </div>
+
+        <div class="song" id="song-4">
+            <div class="song-header">
+                <span class="song-number">4</span>
+                <h2>local on the 8's</h2>
+                
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/xXGJ6qhkzBc" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=xXGJ6qhkzBc" target="_blank" class="yt-link">Open in YouTube ↗</a>
+        </div>
+
+        <div class="song" id="song-5">
+            <div class="song-header">
+                <span class="song-number">5</span>
+                <h2>down by the seaside</h2>
+                <span class="artist">led zeppelin</span>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/2Wa4bO5PsUk" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=2Wa4bO5PsUk" target="_blank" class="yt-link">Open in YouTube ↗</a>
+        </div>
+
+        <div class="song" id="song-6">
+            <div class="song-header">
+                <span class="song-number">6</span>
+                <h2>no quarter</h2>
+                <span class="artist">led zeppelin</span>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/_vG_mTt6hCs" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=_vG_mTt6hCs" target="_blank" class="yt-link">Open in YouTube ↗</a>
+        </div>
+
+        <div class="song" id="song-7">
+            <div class="song-header">
+                <span class="song-number">7</span>
+                <h2>showbiz kids</h2>
+                <span class="artist">steely dan</span>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/E7XXEO1aADM" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=E7XXEO1aADM" target="_blank" class="yt-link">Open in YouTube ↗</a>
+        </div>
+
+        <div class="song" id="song-8">
+            <div class="song-header">
+                <span class="song-number">8</span>
+                <h2>242 Scoops</h2>
+                
+            </div>
+            <div class="no-video">No video available</div>
+            
+        </div>
+
+        <div class="song" id="song-9">
+            <div class="song-header">
+                <span class="song-number">9</span>
+                <h2>don't keep me wondering</h2>
+                <span class="artist">allman brothers</span>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/JduaboHRCyg" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=JduaboHRCyg" target="_blank" class="yt-link">Open in YouTube ↗</a>
+        </div>
+
+        <div class="song" id="song-10">
+            <div class="song-header">
+                <span class="song-number">10</span>
+                <h2>Pack it up</h2>
+                
+            </div>
+            <div class="no-video">No video available</div>
+            
+        </div>
+
+        <div class="song" id="song-11">
+            <div class="song-header">
+                <span class="song-number">11</span>
+                <h2>frankenstein</h2>
+                <span class="artist">the edgar winter group</span>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/65XSHM3jlAY" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=65XSHM3jlAY" target="_blank" class="yt-link">Open in YouTube ↗</a>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Generated by OysterBot 🦪</p>
+        <p>Updated: 2026-03-11 11:48</p>
+    </footer>
+</body>
+</html>
